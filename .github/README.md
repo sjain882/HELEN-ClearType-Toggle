@@ -91,10 +91,14 @@ A perfect (in code terms) solution would be to move the `SystemParametersInfoA` 
 ## FAQ:
 
 **Q:** Why must the patcher run as administrator?
+
 **A:** The default installation location for `HELEN.exe` is a directory inside `C:\Program Files (x86)` which requires administrator permissions to write to by default. Since most users do not change this default directory, this will avoid a lot of potential confusion resulting from unauthorised access errors.
+
 **A:** Since drag and dropping files in Windows is unsupported for elevated applications, the ability to drag and drop HELEN.exe onto the patcher window for ease of use was omitted from development for the same reason.
 
+‎
 **Q:** Why does the application target the now outdated .NET Framework 4?
+
 **A:** This is to ensure it is compatible with Windows XP & above, since HELEN should run on the same operating systems.
 
 ‎
