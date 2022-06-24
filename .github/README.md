@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/43217178/175432463-e83ff24a-7153-433a-
 
 [![ISSUES](https://img.shields.io/github/issues/sjain882/HELEN-ClearType-Toggle?color=FF6D00&style=flat)](https://github.com/sjain882/HELEN-ClearType-Toggle/issues)
 [![VERSION](https://img.shields.io/github/v/release/sjain882/HELEN-ClearType-Toggle?color=FF6D00&style=flat&label=version)](https://github.com/sjain882/HELEN-ClearType-Toggle/releases/latest)
-[![DOWNLOAD](https://img.shields.io/badge/-Download-%232E7D32?style=flat)](https://github.com/sjain882/HELEN-ClearType-Toggle/releases/latest/download/HelenClearTypeToggle.exe)
+[![DOWNLOAD](https://img.shields.io/github/downloads/sjain882/HELEN-ClearType-Toggle/total?color=2E7D32&label=Download&style=flat)](https://github.com/sjain882/HELEN-ClearType-Toggle/releases/latest/download/HelenClearTypeToggle.exe)
 
 Simple patcher for HELEN software that toggles its ability to enable or disable Windows ClearType.
 
@@ -25,7 +25,13 @@ Compatible with Windows XP & above (tested)
 ‎
 ## Usage:
 
-1. Please ensure you have a currently supported version of HELEN installed.
+If you are using Windows XP - please download & install .NET Framework 4 from [here](https://www.microsoft.com/en-gb/download/details.aspx?id=17718).
+
+If you are using Windows 7 - please obtain .NET Framework 4 via Windows Update or from [here](https://www.microsoft.com/en-gb/download/details.aspx?id=17718).
+
+If you are using Windows 10 - no extra steps are required prior to usage of this application.
+
+1. Please ensure you have a currently supported version of HELEN installed and that all HELEN windows are closed.
 
 2. Download the latest release from [here](https://github.com/sjain882/HELEN-ClearType-Toggle/releases/latest/download/HelenClearTypeToggle.exe) and run it.
 
@@ -49,7 +55,7 @@ Compatible with Windows XP & above (tested)
 
 - `--disable`, `-d`: Patches the HELEN executable so that it has no control over ClearType (it will never attempt to turn ClearType on/off). Displays message box indicating success/failure.
 
-- Example usage: `HelenClearTypeToggle -p "C:\Applications\HELEN.exe" --e`
+- Example usage: `HelenClearTypeToggle -p "C:\Applications\HELEN.exe" --enable`
 
 - If no arguments are specified, the GUI will launch.
 
@@ -135,3 +141,10 @@ There is no specific build process. Simply install Visual Studio Community (I us
 - The **[Large Address Aware](https://www.techpowerup.com/forums/threads/large-address-aware.112556/)** project - GUI inspiration
 
 - **[MrChips](https://fellowsfilm.com/members/mrchips.3079/#resources)** - Beta testing
+
+‎
+## Disclaimer:
+
+I am not a regular user of HELEN and am not very familiar with this software. It is entirely possible that in some corner of the application, simply opening your work with ClearType control disabled in HELEN could cause loss of work, and if saved - this could become permanent. It goes without saying that you should always backup your work regularly and before using this patcher for the first few times.
+
+This software is provided "As is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. **I cannot be held personally responsible if usage of this software results in loss of work or breakage of your HELEN installation**.
