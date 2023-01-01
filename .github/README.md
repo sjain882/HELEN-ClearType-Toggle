@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/43217178/175432463-e83ff24a-7153-433a-
 
 Simple patcher for HELEN software that toggles its ability to enable or disable Windows ClearType.
 
-Compatible with Windows XP & above (tested)
+Tested on Windows XP & above.
 </div>
 
 ‎
@@ -141,6 +141,11 @@ There is no specific build process. Simply install Visual Studio Community (I us
 - The **[Large Address Aware](https://www.techpowerup.com/forums/threads/large-address-aware.112556/)** project - GUI inspiration
 
 - **[MrChips](https://fellowsfilm.com/members/mrchips.3079/#resources)** - Beta testing
+
+‎
+## License:
+
+This software is licensed under the GNU General Public License v3 (GPL-3) licence. Please see https://www.gnu.org/licenses/gpl-3.0.en.html for more information.
 
 ‎
 ## Disclaimer:
